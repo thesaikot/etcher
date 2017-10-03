@@ -4,6 +4,15 @@ Publishing Etcher
 This is a small guide to package and publish Etcher to all supported operating
 systems.
 
+Requirements
+------------
+
+### Linux
+
+- icnsutils
+- graphicsmagic
+
+
 Release Types
 -------------
 
