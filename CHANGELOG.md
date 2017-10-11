@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## v1.2.0 - 2017-10-11
+
+### Features
+
+- Integrate Raspberry Pi's usbboot technology.
+- Add support for `.bin` images
+- Implement usbboot write adaptor.
+
+### Fixes
+
+- Fix "Couldn't scan the drives: An unknown error occurred" error when there is a drive locked with BitLocker.
+- Fix Etcher being unable to read certain zip files.
+- Retry ejection various times before giving up on Windows.
+- Support raw images without secondary file extensions.
+
+### Misc
+
+- Add elevation at startup on GNU/Linux.
+- Try to use `$XDG_RUNTIME_DIR` to extract temporary scripts on GNU/Linux.
+
 ## v1.1.2 - 2017-08-07
 
 ### Features
