@@ -1017,8 +1017,7 @@
     "cross-spawn": {
       "version": "4.0.2",
       "from": "cross-spawn@>=4.0.0 <5.0.0",
-      "resolved": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-4.0.2.tgz",
-      "dev": true
+      "resolved": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-4.0.2.tgz"
     },
     "cross-spawn-async": {
       "version": "2.2.5",
@@ -2719,7 +2718,8 @@
     "get-stream": {
       "version": "3.0.0",
       "from": "get-stream@>=3.0.0 <4.0.0",
-      "resolved": "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz",
+      "dev": true
     },
     "get-uri": {
       "version": "0.1.4",
@@ -3251,9 +3251,9 @@
       "dev": true
     },
     "is-electron": {
-      "version": "2.1.0",
+      "version": "2.0.0",
       "from": "is-electron@>=2.0.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/is-electron/-/is-electron-2.1.0.tgz"
+      "resolved": "https://registry.npmjs.org/is-electron/-/is-electron-2.0.0.tgz"
     },
     "is-electron-renderer": {
       "version": "2.0.1",
@@ -4621,9 +4621,9 @@
       "resolved": "https://registry.npmjs.org/mixpanel/-/mixpanel-0.6.0.tgz"
     },
     "mixpanel-browser": {
-      "version": "2.13.0",
+      "version": "2.11.1",
       "from": "mixpanel-browser@>=2.11.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/mixpanel-browser/-/mixpanel-browser-2.13.0.tgz"
+      "resolved": "https://registry.npmjs.org/mixpanel-browser/-/mixpanel-browser-2.11.1.tgz"
     },
     "mkdirp": {
       "version": "0.5.1",
@@ -8994,19 +8994,19 @@
       }
     },
     "resin-corvus": {
-      "version": "1.0.0-beta.29",
-      "from": "resin-corvus@1.0.0-beta.29",
-      "resolved": "https://registry.npmjs.org/resin-corvus/-/resin-corvus-1.0.0-beta.29.tgz",
+      "version": "1.0.0-beta.28",
+      "from": "resin-corvus@1.0.0-beta.28",
+      "resolved": "https://registry.npmjs.org/resin-corvus/-/resin-corvus-1.0.0-beta.28.tgz",
       "dependencies": {
-        "cross-spawn": {
-          "version": "5.1.0",
-          "from": "cross-spawn@>=5.0.1 <6.0.0",
-          "resolved": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-5.1.0.tgz"
-        },
         "execa": {
-          "version": "0.7.0",
-          "from": "execa@>=0.7.0 <0.8.0",
-          "resolved": "https://registry.npmjs.org/execa/-/execa-0.7.0.tgz"
+          "version": "0.5.1",
+          "from": "execa@>=0.5.0 <0.6.0",
+          "resolved": "https://registry.npmjs.org/execa/-/execa-0.5.1.tgz"
+        },
+        "get-stream": {
+          "version": "2.3.1",
+          "from": "get-stream@>=2.2.0 <3.0.0",
+          "resolved": "https://registry.npmjs.org/get-stream/-/get-stream-2.3.1.tgz"
         },
         "lodash": {
           "version": "4.17.4",
@@ -9019,9 +9019,9 @@
           "resolved": "https://registry.npmjs.org/npm-run-path/-/npm-run-path-2.0.2.tgz"
         },
         "os-locale": {
-          "version": "2.1.0",
+          "version": "2.0.0",
           "from": "os-locale@>=2.0.0 <3.0.0",
-          "resolved": "https://registry.npmjs.org/os-locale/-/os-locale-2.1.0.tgz"
+          "resolved": "https://registry.npmjs.org/os-locale/-/os-locale-2.0.0.tgz"
         },
         "path-key": {
           "version": "2.0.1",
@@ -9261,16 +9261,6 @@
       "version": "1.0.5",
       "from": "setimmediate@>=1.0.5 <2.0.0",
       "resolved": "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz"
-    },
-    "shebang-command": {
-      "version": "1.2.0",
-      "from": "shebang-command@>=1.2.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/shebang-command/-/shebang-command-1.2.0.tgz"
-    },
-    "shebang-regex": {
-      "version": "1.0.0",
-      "from": "shebang-regex@>=1.0.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-1.0.0.tgz"
     },
     "shelljs": {
       "version": "0.7.8",
