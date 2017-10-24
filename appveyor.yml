@@ -18,7 +18,7 @@ cache:
 environment:
   global:
     ELECTRON_NO_ATTACH_CONSOLE: true
-    nodejs_version: "6.10.3"
+    nodejs_version: "8"
   matrix:
     - TARGET_ARCH: x64
     - TARGET_ARCH: x86
@@ -32,6 +32,7 @@ install:
   - set PATH=C:\Program Files (x86)\NSIS;%PATH%
   - set PATH=C:\MinGW\bin;%PATH%
   - set PATH=C:\MinGW\msys\1.0\bin;%PATH%
+  - npm install --global npm@5.5.x
   - bash .\scripts\ci\install.sh -o win32 -r %TARGET_ARCH%
 
 build: off

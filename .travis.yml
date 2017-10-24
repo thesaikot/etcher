@@ -1,7 +1,7 @@
 language: node_js
 sudo: false
 node_js:
-  - "6.10.3"
+  - 8
 
 # Remove wine from cache
 before_cache:
@@ -50,6 +50,7 @@ os:
   - osx
 
 before_install:
+  - npm install --global npm@5.5.x
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then PATH=/usr/local/opt/ccache/libexec:$PATH; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then
       export HOST_OS="darwin";
