@@ -55,7 +55,14 @@ RUN add-apt-repository ppa:ubuntu-toolchain-r/test \
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
   && apt-get install -y nodejs
 
-RUN npm install --global npm@5.5.x
+# RUN npm install --global npm@5.5.x
+
+# See https://github.com/npm/npm/issues/16807,
+# ref https://github.com/npm/npm/issues/16807#issuecomment-313537550
+RUN rm -rf /usr/local/lib/node_modules/npm \
+  && mkdir /usr/local/lib/node_modules/npm \
+  && curl -sL https://github.com/npm/npm/archive/v5.5.1.tar.gz | tar xz -C /usr/local/lib/node_modules/npm --strip-components=1 \
+  && npm --version
 
 # Regarding unsafe-perm
 # See https://github.com/mapbox/node-pre-gyp/issues/165
