@@ -2,7 +2,7 @@
 # Build configuration
 # ---------------------------------------------------------------------
 
-NPX = ./node_modules/.bin/npx
+NPX = npx
 
 # This directory will be completely deleted by the `clean` rule
 BUILD_DIRECTORY ?= dist
