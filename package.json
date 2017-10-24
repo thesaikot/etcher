@@ -22,7 +22,8 @@
     "start": "electron lib/start.js",
     "configure": "node-gyp configure",
     "build": "node-gyp build",
-    "install": "node-gyp rebuild"
+    "install": "node-gyp rebuild",
+    "docker-template": "node scripts/build/docker/compile-template.js"
   },
   "author": "Resin Inc. <hello@etcher.io>",
   "license": "Apache-2.0",
